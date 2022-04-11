@@ -1,0 +1,114 @@
+.titulo, .titulo__Secciones, .titulo__Principal, .piePagina, .titulo__Cartas {
+  font-weight: bold; }
+
+.titulo__Principal, .piePagina {
+  background-color: #1D1D1D;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 1rem; }
+
+.clasePrueba {
+  color: white; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+.btn-outline-success {
+  color: black;
+  border-color: black; }
+
+.btn-outline-success:hover {
+  background-color: black;
+  border-color: black; }
+
+.footer-detalles {
+  font-weight: normal;
+  color: var(--bs-gray-300);
+  font-size: 1rem; }
+
+.sizeImgB {
+  width: 12.5rem;
+  height: 12.5rem; }
+
+.logosFooter {
+  position: relative;
+  width: 14rem;
+  height: 6rem; }
+
+.bg-empresa, .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3, .bg-nosotros, .bg-meta {
+  color: rgba(255, 255, 255, 0.548);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh; }
+  .bg-empresa h1, .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-form h1, .bg-form_item1 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1, .bg-nosotros h1, .bg-meta h1 {
+    color: rgba(255, 255, 255, 0.788); }
+
+.bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+  color: black;
+  height: 75vh; }
+  .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-form h1, .bg-form_item1 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1 {
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 2rem; }
+
+.bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+  color: rgba(255, 255, 255, 0.548);
+  height: 60vh; }
+
+.bg-form, .bg-form_item1 {
+  color: rgba(255, 255, 255, 0.548); }
+
+.bkg_form {
+  background-color: white; }
+
+.bg-form_item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
+
+.bg-combo_item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
+
+.bg-combo_item2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda2.jpg); }
+
+.bg-combo_item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda3.jpg); }
+
+.bg-combo_item4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
+
+.bg-tienda_item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
+
+.bg-tienda_item2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda2.jpg); }
+
+.bg-tienda_item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda3.jpg); }
+
+.bg-nosotros {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/somos1.jpg); }
+
+.bg-meta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/somos2.jpg); }
+
+h1 p {
+  margin: 0px;
+  padding: 0px; }
+
+@media (max-width: 576px) {
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+    height: 200vh; }
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+    height: 115vh; }
+  .bg-form, .bg-form_item1 {
+    height: 125vh; } }
+
+@media (max-width: 450px) {
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+    height: 150vh; } }
+
+@media (max-width: 360px) {
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+    height: 225vh; }
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+    height: 175vh; } }
